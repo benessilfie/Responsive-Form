@@ -59,5 +59,6 @@ body .wrapper form .dbl-field .field {
 body .wrapper form .field input, body .wrapper form .message textarea {
   height: 100%;
   width: 100%;
+  outline: none;
 }
 /*# sourceMappingURL=main.css.map */
