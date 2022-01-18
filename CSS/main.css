@@ -57,15 +57,18 @@ body .wrapper form .dbl-field .field {
   width: calc(100% / 2 - 13px);
 }
 
-body .wrapper form .dbl-field .field i {
-  position: absolute;
-  left: 18px;
-  top: 50%;
-  color: #bfbfbf;
-  font-size: 17px;
-  pointer-events: none;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+body .wrapper form .message {
+  position: relative;
+}
+
+body .wrapper form .message i {
+  top: 30px;
+  font-size: 20px;
+}
+
+body .wrapper form .message textarea {
+  min-height: 120px;
+  padding: 15px 20px 0 48px;
 }
 
 body .wrapper form .field input::-webkit-input-placeholder,
@@ -96,5 +99,16 @@ body .wrapper form .field input, body .wrapper form .message textarea {
   font-size: 1em;
   border-radius: 5px;
   border: 1px solid #bfbfbf;
+}
+
+body .wrapper form i {
+  position: absolute;
+  left: 18px;
+  top: 50%;
+  color: #bfbfbf;
+  font-size: 17px;
+  pointer-events: none;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
 }
 /*# sourceMappingURL=main.css.map */
