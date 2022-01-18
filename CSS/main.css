@@ -10,12 +10,43 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding: 0 10px;
+  min-height: 100vh;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  min-height: 100vh;
+  background: #0d6efd;
+}
+
+body .wrapper {
+  width: 720px;
+  background: #fff;
+  border-radius: 5px;
+}
+
+body .wrapper header {
+  font-size: 22px;
+  font-weight: 600;
+  padding: 20px 30px;
+  border-bottom: 1px solid #bfbfbf;
+}
+
+body .wrapper form {
+  margin: 35px 30px;
+}
+
+body .wrapper form .dbl-field {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 /*# sourceMappingURL=main.css.map */
