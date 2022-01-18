@@ -125,6 +125,19 @@ body {
     form .dbl-field {
         flex-direction: column;
     }
+
+    .dbl-field .field{
+        width: 100%;
+    }
+
+    .button-area button {
+        width: 100%;
+    }
+
+    .button-area span {
+        text-align: center;
+        margin: 20px 0;
+    }
     
 }
 

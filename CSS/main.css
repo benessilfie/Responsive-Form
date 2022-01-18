@@ -160,5 +160,15 @@ body .wrapper form .button-area span {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .dbl-field .field {
+    width: 100%;
+  }
+  .button-area button {
+    width: 100%;
+  }
+  .button-area span {
+    text-align: center;
+    margin: 20px 0;
+  }
 }
 /*# sourceMappingURL=main.css.map */
