@@ -45,8 +45,14 @@ body .wrapper form .dbl-field {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-bottom: 25px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+body .wrapper form .dbl-field .field {
+  height: 50px;
+  width: calc(100% / 2 - 13px);
 }
 /*# sourceMappingURL=main.css.map */

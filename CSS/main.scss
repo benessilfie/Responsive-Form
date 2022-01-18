@@ -31,7 +31,17 @@ body {
             .dbl-field {
                 display: flex;
                 align-items: center;
+                margin-bottom: 25px;
                 justify-content: space-between;
+
+                .field {
+                    height: 50px;
+                    width: calc(100% / 2 - 13px);
+
+                    input {
+                        
+                    }
+                }
             }
         }
     }
