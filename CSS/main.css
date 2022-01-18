@@ -53,12 +53,28 @@ body .wrapper form .dbl-field {
 
 body .wrapper form .dbl-field .field {
   height: 50px;
+  position: relative;
   width: calc(100% / 2 - 13px);
+}
+
+body .wrapper form .dbl-field .field i {
+  position: absolute;
+  left: 18px;
+  top: 50%;
+  color: #bfbfbf;
+  font-size: 17px;
+  pointer-events: none;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
 }
 
 body .wrapper form .field input, body .wrapper form .message textarea {
   height: 100%;
   width: 100%;
   outline: none;
+  padding: 0 18px 0 48px;
+  font-size: 1em;
+  border-radius: 5px;
+  border: 1px solid #bfbfbf;
 }
 /*# sourceMappingURL=main.css.map */
