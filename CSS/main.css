@@ -68,6 +68,26 @@ body .wrapper form .dbl-field .field i {
           transform: translateY(-50%);
 }
 
+body .wrapper form .field input::-webkit-input-placeholder,
+body .wrapper form .message textarea::-webkit-input-placeholder {
+  color: #bfbfbf;
+}
+
+body .wrapper form .field input:-ms-input-placeholder,
+body .wrapper form .message textarea:-ms-input-placeholder {
+  color: #bfbfbf;
+}
+
+body .wrapper form .field input::-ms-input-placeholder,
+body .wrapper form .message textarea::-ms-input-placeholder {
+  color: #bfbfbf;
+}
+
+body .wrapper form .field input::placeholder,
+body .wrapper form .message textarea::placeholder {
+  color: #bfbfbf;
+}
+
 body .wrapper form .field input, body .wrapper form .message textarea {
   height: 100%;
   width: 100%;

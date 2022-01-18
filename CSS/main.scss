@@ -39,10 +39,6 @@ body {
                     position: relative;
                     width: calc(100% / 2 - 13px);
 
-                    input {
-                        
-                    }
-
                     i{
                         position: absolute;
                         left: 18px;
@@ -54,6 +50,12 @@ body {
                     }
                 }
             }
+
+            .field input::placeholder,
+            .message textarea::placeholder {
+                color: #bfbfbf;
+            }
+
 
             .field input, .message textarea {
                 height: 100%;
