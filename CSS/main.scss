@@ -38,6 +38,10 @@ body {
                     height: 50px;
                     position: relative;
                     width: calc(100% / 2 - 13px);
+
+                    input:focus ~ i{
+                        color: #0d6efd;
+                    }
                 }
             }
 
@@ -50,6 +54,10 @@ body {
                 }
 
                 textarea {
+                    min-width: 100%;
+                    max-width: 100%;
+                    min-height: 120px;
+                    max-height: 300px;
                     min-height: 120px;
                     padding: 15px 20px 0 48px;
                 }
@@ -70,8 +78,13 @@ body {
                 color: #bfbfbf;
             }
 
+            .field input:focus,
+            .message textarea:focus {
+                border: 2.5px solid #0d6efd;
+            }
 
-            .field input, .message textarea {
+            .field input, 
+            .message textarea {
                 height: 100%;
                 width: 100%;
                 outline: none; 
@@ -80,7 +93,38 @@ body {
                 border-radius: 5px;
                 border: 1px solid #bfbfbf;
             }
+
+            .button-area {
+                margin: 25px 0;
+                display: flex;
+                align-items: center;
+
+                button {
+                    font-size: 1em;
+                    border: none;
+                    color: #fff;
+                    border-radius: 5px;
+                    background: #0d6efd;
+                    padding: 13px 25px;
+                }
+
+                span {
+                    color: #0d6efd;
+                    margin-left: 30px;
+                }
+            }
         }
     }
+}
+
+@media (max-width: 600px) {
+    .wrapper header {
+        text-align: center;
+    }
+
+    form .dbl-field {
+        flex-direction: column;
+    }
+    
 }
 
