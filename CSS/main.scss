@@ -37,11 +37,14 @@ body {
                 .field {
                     height: 50px;
                     width: calc(100% / 2 - 13px);
-
-                    input {
-                        
-                    }
                 }
+            }
+
+            .field input, .message textarea {
+                height: 100%;
+                width: 100%;
+                outline: none;
+                
             }
         }
     }
