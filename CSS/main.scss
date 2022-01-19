@@ -127,9 +127,13 @@ body {
         flex-direction: column;
     }
 
-    .dbl-field .field{
+    form .dbl-field .field{
         width: 100%;
         margin-bottom: 20px;
+    }
+
+    form .message textarea{
+        resize: none;
     }
 
     form .button-area{
