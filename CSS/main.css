@@ -155,6 +155,7 @@ body .wrapper form .button-area span {
     text-align: center;
   }
   form .dbl-field {
+    margin-bottom: 0;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
