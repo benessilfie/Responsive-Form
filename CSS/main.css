@@ -21,24 +21,24 @@ body {
   background: #0d6efd;
 }
 
-body .wrapper {
+body .container {
   width: 720px;
   background: #fff;
   border-radius: 5px;
 }
 
-body .wrapper header {
+body .container header {
   font-size: 22px;
   font-weight: 600;
   padding: 20px 30px;
   border-bottom: 1px solid #bfbfbf;
 }
 
-body .wrapper form {
+body .container form {
   margin: 35px 30px;
 }
 
-body .wrapper form .dbl-field {
+body .container form .dbl-field {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -51,25 +51,25 @@ body .wrapper form .dbl-field {
           justify-content: space-between;
 }
 
-body .wrapper form .dbl-field .field {
+body .container form .dbl-field .field {
   height: 50px;
   position: relative;
 }
 
-body .wrapper form .dbl-field .field input:focus ~ i {
+body .container form .dbl-field .field input:focus ~ i {
   color: #0d6efd;
 }
 
-body .wrapper form .message {
+body .container form .message {
   position: relative;
 }
 
-body .wrapper form .message i {
+body .container form .message i {
   top: 30px;
   font-size: 20px;
 }
 
-body .wrapper form .message textarea {
+body .container form .message textarea {
   min-width: 100%;
   max-width: 100%;
   min-height: 120px;
@@ -78,7 +78,7 @@ body .wrapper form .message textarea {
   padding: 15px 20px 0 48px;
 }
 
-body .wrapper form i {
+body .container form i {
   position: absolute;
   left: 18px;
   top: 50%;
@@ -89,33 +89,33 @@ body .wrapper form i {
           transform: translateY(-50%);
 }
 
-body .wrapper form .field input::-webkit-input-placeholder,
-body .wrapper form .message textarea::-webkit-input-placeholder {
+body .container form .field input::-webkit-input-placeholder,
+body .container form .message textarea::-webkit-input-placeholder {
   color: #bfbfbf;
 }
 
-body .wrapper form .field input:-ms-input-placeholder,
-body .wrapper form .message textarea:-ms-input-placeholder {
+body .container form .field input:-ms-input-placeholder,
+body .container form .message textarea:-ms-input-placeholder {
   color: #bfbfbf;
 }
 
-body .wrapper form .field input::-ms-input-placeholder,
-body .wrapper form .message textarea::-ms-input-placeholder {
+body .container form .field input::-ms-input-placeholder,
+body .container form .message textarea::-ms-input-placeholder {
   color: #bfbfbf;
 }
 
-body .wrapper form .field input::placeholder,
-body .wrapper form .message textarea::placeholder {
+body .container form .field input::placeholder,
+body .container form .message textarea::placeholder {
   color: #bfbfbf;
 }
 
-body .wrapper form .field input:focus,
-body .wrapper form .message textarea:focus {
+body .container form .field input:focus,
+body .container form .message textarea:focus {
   border: 2.5px solid #0d6efd;
 }
 
-body .wrapper form .field input,
-body .wrapper form .message textarea {
+body .container form .field input,
+body .container form .message textarea {
   height: 100%;
   width: 100%;
   outline: none;
@@ -125,7 +125,7 @@ body .wrapper form .message textarea {
   border: 1px solid #bfbfbf;
 }
 
-body .wrapper form .button-area {
+body .container form .button-area {
   margin: 25px 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -135,7 +135,7 @@ body .wrapper form .button-area {
           align-items: center;
 }
 
-body .wrapper form .button-area button {
+body .container form .button-area button {
   font-size: 1em;
   border: none;
   color: #fff;
@@ -144,7 +144,7 @@ body .wrapper form .button-area button {
   padding: 13px 25px;
 }
 
-body .wrapper form .button-area span {
+body .container form .button-area span {
   color: #0d6efd;
   margin-left: 30px;
 }
