@@ -9,7 +9,7 @@ This project is a form built with to be responsive with flexbox
 
 ## Art -Mobile & Tablet View
 
-<img src="https://raw.githubusercontent.com/essilfiequansah/Responsive-Footer/master/screenshots/art%202.png" width="33%"  height="30%"/>
+<img src="https://raw.githubusercontent.com/essilfiequansah/Responsive-Form/master/screenshots/art2.png" width="33%"  height="30%"/>
 
 ## Author 😊
 
