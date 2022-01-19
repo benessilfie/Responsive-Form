@@ -1,6 +1,6 @@
-# Responsive Footer
+# Responsive Form
 
-This project is a footer built with to be responsive with flexbox
+This project is a form built with to be responsive with flexbox
 
 
 ## Art - Desktop View
