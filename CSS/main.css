@@ -163,6 +163,12 @@ body .wrapper form .button-area span {
   .dbl-field .field {
     width: 100%;
   }
+  form .button-area {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
   .button-area button {
     width: 100%;
   }
