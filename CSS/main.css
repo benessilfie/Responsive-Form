@@ -150,7 +150,7 @@ body .container form .button-area span {
 }
 
 @media (max-width: 600px) {
-  .wrapper header {
+  .container header {
     text-align: center;
   }
   form .dbl-field {
