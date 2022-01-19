@@ -5,7 +5,7 @@ This project is a form built with to be responsive with flexbox
 
 ## Art - Desktop View
 
-<img src="https://raw.githubusercontent.com/essilfiequansah/Responsive-Footer/master/screenshots/art1.png" width="80%"  height="40%"/>
+<img src="https://raw.githubusercontent.com/essilfiequansah/Responsive-Form/master/screenshots/art1.png" width="80%"  height="40%"/>
 
 ## Art -Mobile & Tablet View
 
