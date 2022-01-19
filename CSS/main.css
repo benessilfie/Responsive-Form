@@ -54,7 +54,6 @@ body .wrapper form .dbl-field {
 body .wrapper form .dbl-field .field {
   height: 50px;
   position: relative;
-  width: calc(100% / 2 - 13px);
 }
 
 body .wrapper form .dbl-field .field input:focus ~ i {
