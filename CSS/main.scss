@@ -117,12 +117,12 @@ body {
     }
 }
 
-@media (max-width: 600px) {
-    .wrapper header {
+@media(max-width: 600px){
+    .wrapper header{
         text-align: center;
     }
 
-    form .dbl-field {
+    form .dbl-field{
         flex-direction: column;
     }
 
@@ -130,15 +130,15 @@ body {
         width: 100%;
     }
 
-    form .button-area {
+    form .button-area{
         flex-direction: column;
     }
 
-    .button-area button {
+    .button-area button{
         width: 100%;
     }
 
-    .button-area span {
+    .button-area span{
         text-align: center;
         margin: 20px 0;
     }
