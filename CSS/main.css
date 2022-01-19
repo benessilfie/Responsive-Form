@@ -162,6 +162,7 @@ body .wrapper form .button-area span {
   }
   .dbl-field .field {
     width: 100%;
+    margin-bottom: 20px;
   }
   form .button-area {
     -webkit-box-orient: vertical;
