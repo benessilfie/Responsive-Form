@@ -1,6 +1,6 @@
 # Responsive Form
 
-This is a simple form built with to be responsive with flexbox
+This is a simple form built  to be responsive with flexbox
 
 
 ## Art - Desktop View
