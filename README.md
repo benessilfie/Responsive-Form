@@ -1,6 +1,6 @@
 # Responsive Form
 
-This project is a form built with to be responsive with flexbox
+This is a form built with to be responsive with flexbox
 
 
 ## Art - Desktop View
