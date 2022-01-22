@@ -7,7 +7,7 @@ This is a simple form built  to be responsive with flexbox
 
 <img src="https://raw.githubusercontent.com/essilfiequansah/Responsive-Form/master/screenshots/art1.png" width="80%"  height="40%"/>
 
-## Art -Mobile & Tablet View
+## Art - Mobile & Tablet View
 
 <img src="https://raw.githubusercontent.com/essilfiequansah/Responsive-Form/master/screenshots/art2.png" width="33%"  height="30%"/>
 
